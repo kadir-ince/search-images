@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
+import Image from './image'
+import '../Styles/ListImages.css'
 
 const ImageList = ({ images }) => {
 
     const preparedImages = images.map(image => {
         return(
-            <img src={image.urls.small} key={image.id} alt={image.id}/>
+            <Image image={image} key={image.id}/>
         )
     })
 
 
         return (
-        <div>
+        <div className={"list-Images"}>
             {preparedImages}
         </div>
     )

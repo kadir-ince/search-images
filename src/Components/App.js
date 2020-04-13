@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import SearchBar from './SearchBar'
-import ImageList from "./images";
+import ImageList from "./imageList";
 import axios from 'axios';
 
 class App extends Component {
@@ -12,7 +12,9 @@ class App extends Component {
         console.log("App: " + search)
         const result = await axios.get('https://api.unsplash.com/search/photos', {
             params: {
-                query: search
+                query: search,
+                per_page: 50,
+                page: 1
             },
             headers: {
                 Authorization: 'Client-ID YHGEE2lfiMRmjgLkSuRauOAPli3rFnujO9tFiaOpFuQ'
