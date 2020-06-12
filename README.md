@@ -4,8 +4,9 @@
 This link hosting by Netlify ![ Netflify Icon](https://api.iconify.design/logos-netlify.svg)
 
 
-## Example Video
-[![search.gif](https://media.giphy.com/media/IhxwN4EdsBQXW5FPdT/giphy.gif)
+## Example
+[![Watch the video](https://i.ibb.co/Rb3C5wg/Screen-Shot-2020-06-12-at-12-46-59.png)](https://i.giphy.com/media/IhxwN4EdsBQXW5FPdT/giphy.mp4)
+
 
 
 
