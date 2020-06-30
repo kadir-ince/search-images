@@ -1,4 +1,5 @@
 # Example Search Images App With Unsplash
+This is basic image search app. You can search a lot of images. Enter the below site and search anything (car, house, book etc.)
 
 [Try Search Images](https://trusting-agnesi-abc53a.netlify.app)  <br> 
 This link hosting by Netlify ![ Netflify Icon](https://api.iconify.design/logos-netlify.svg)
