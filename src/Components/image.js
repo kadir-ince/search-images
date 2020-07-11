@@ -25,7 +25,7 @@ class Image extends Component {
         return (
             <img style={{
                 gridRowEnd: `span ${this.state.spanCount}`
-            }} ref={this.myRef} src={image.urls.full} alt={image.description}/>
+            }} ref={this.myRef} src={image.urls.small} alt={image.description}/>
         );
     }
 }
